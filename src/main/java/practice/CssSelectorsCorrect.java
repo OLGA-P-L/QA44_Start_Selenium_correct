@@ -17,6 +17,7 @@ public class CssSelectorsCorrect {
         WebElement elementH3 = driver.findElement(By.cssSelector("h3"));
         System.out.println(elementH3.getText());
 
+
         WebElement elementAbout = driver.findElement(By.cssSelector("a[href='/about']"));
         pause(3);
         elementAbout.click();
